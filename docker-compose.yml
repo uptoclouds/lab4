@@ -1,0 +1,6 @@
+version: '3'
+services:
+  server:
+    image: dto80/dev-ops-basic:latest
+    ports:
+      - 8888:80
